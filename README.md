@@ -16,14 +16,15 @@ To write a program to predict the profit of a city using the linear regression m
 
 4.Plot the Cost function using Gradient Descent and generate the required graph.
 
-
 ## Program:
 ```
 /*
 Program to implement the linear regression using gradient descent.
-Developed by: vembarasan.p
+Developed by: VEMBARASAN P
 RegisterNumber:  212223220123
-import pandas as pd
+*/
+```
+```import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 data=pd.read_csv("ex1.txt",header=None)
@@ -85,24 +86,26 @@ print("For Population = 35000, we predict a profit of $"+str(round(predict1,0)))
 
 predict2=predict(np.array([1,7]),theta)*10000
 print("For Population = 70000, we predict a profit of $"+str(round(predict2,0)))
-
 ```
-
 ## Output:
-## Profit prediction:
-![270279988-72c751de-9d20-419c-908d-f9d68e91d28e](https://github.com/vembuu07/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/150772461/1187bb2f-51a2-43b9-9aa0-c872a03f7775)
-## Function:
-![270279726-5440dbe0-743e-4f21-9b15-c6750af2f4e1](https://github.com/vembuu07/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/150772461/54c13414-6781-48bb-a9df-a10933a4f194)
-## Gradient descent:
-![270279708-aef30837-1496-469f-97f8-2a7a64ca63b7](https://github.com/vembuu07/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/150772461/a47269c8-1785-4495-b9fc-0f31ac4f8da6)
-## COST FUNCTION USING GRADIENT DESCENT:
-![270279961-17ee5b6b-631f-475a-9c3f-4e0a5e3a7b2e](https://github.com/vembuu07/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/150772461/2868b89e-83de-4603-ad19-a548d87af2da)
-## Linear regression using profit predication:
-![270279896-59d451d6-9bc7-4a74-aca4-e5c6e1790efb](https://github.com/vembuu07/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/150772461/2bd362af-870a-454f-81d0-e94116856733)
-## Profit predication for a population of 350000:
-![270279656-024ca885-488e-400f-a698-300882d60a1a](https://github.com/vembuu07/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/150772461/d787e331-1c23-47e4-a2f3-27678833baf6)
-## Profit predication for a population of 70000:
-![270279641-b1150597-9c47-4e21-874e-7714e24aad18](https://github.com/vembuu07/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/150772461/6872caa2-fe92-45ef-8ad2-46ce506ab19c)
+
+### X values
+![image](https://github.com/Wkrish28/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/144295230/10d0ca73-cc69-40ae-b903-e414dbe0626f)
+
+### y values
+![image](https://github.com/Wkrish28/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/144295230/1222e38a-3364-4ef0-81a8-f4d3d78607d8)
+
+### X Scaled values
+![image](https://github.com/Wkrish28/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/144295230/1d81226c-2b5b-4af7-b0c6-9ffe8b7c4dfd)
+
+### y Scaled values
+![image](https://github.com/Wkrish28/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/144295230/c3086ee3-3461-47ef-9389-d998203983c0)
+
+### Predicted value
+![image](https://github.com/Wkrish28/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/144295230/627c5d14-ff96-4de9-ba02-8b494fd7f296)
+
+
+
 
 ## Result:
 Thus the program to implement the linear regression using gradient descent is written and verified using python programming.
